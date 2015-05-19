@@ -5,5 +5,5 @@ plugins
 gruntProject/node_modules/
 gruntProject/vendor
 *DS_Store*
-www/*
 gruntProject/build
+www/*
