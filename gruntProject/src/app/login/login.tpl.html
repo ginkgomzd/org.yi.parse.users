@@ -1,0 +1,22 @@
+<div class="row">
+  <h1 class="page-header">
+    Login
+    <small>Please login or register to proceed.</small>
+  </h1>
+  <p>
+    <form novalidate>
+      Email:<br>
+      <input type="text" ng-model="user.email"><br>
+      Password:<br>
+      <input type="password" ng-model="user.password">
+      <br><br>
+      <input class='btn btn-larg btn-success' type="submit" ng-click="authenticate(user)" value="Login" />
+      <br><br>
+      <a href class='btn btn-larg btn-primary btn-fb' ng-click="authenticate_fb()"><img style='width:20px;' src='assets/img/fbicon.png' /> Login</a>
+      <br><br>
+      Or, if you'd like to <a ng-click="register(user)">register...</a><br>
+    </form>
+
+  </p>
+</div>
+
